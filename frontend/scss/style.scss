@@ -1,0 +1,57 @@
+// scss/style.scss
+// Importando variáveis do Bootstrap
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "custom";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+@include media-breakpoint-up(sm) {
+    
+}
+
+@include media-breakpoint-up(md) {
+    
+}
+
+@include media-breakpoint-up(lg) {
+    
+}
+
+@include media-breakpoint-up(xl) {
+    
+}
+
+// Exemplo: Começe ocultando em  `min-width: 0`, e então mostre em no breakpoint `sm`
+.custom-class {
+    display: none;
+}
+
+@include media-breakpoint-up(sm) {
+    .custom-class {
+        display: block;
+    }
+}
+
+
+.search-button:hover {
+    background-color: #1669c1;
+    /* Azul escuro */
+}
+
+
+.front-banner img {
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .search-bar {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
