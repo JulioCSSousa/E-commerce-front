@@ -11925,8 +11925,8 @@ textarea.form-control-lg {
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg: rgb(245, 234, 234);
-  --bs-body-bg-rgb: 245, 234, 234;
+  --bs-body-bg: rgb(14, 7, 7);
+  --bs-body-bg-rgb: 14, 7, 7;
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb: 0, 0, 0;
   --bs-secondary-color: rgba(33, 37, 41, 0.75);
@@ -23715,6 +23715,9 @@ textarea.form-control-lg {
 @media (min-width: 576px) {
   .custom-class {
     display: block;
+  }
+  .card:hover .buttons {
+    opacity: 1;
   }
 }
 .product-container {

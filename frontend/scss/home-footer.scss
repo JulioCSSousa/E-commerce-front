@@ -1,3 +1,5 @@
+@use 'custom.scss';
+
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -7,11 +9,10 @@
     display: flex;
     max-width: 100vw;
     max-height: 100vh;
-    background-color: bisque;
 }
 
 #accordionExample{
-    background-color: beige;
+    background-color: custom.$body-bg;
 }
 .footer-container{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

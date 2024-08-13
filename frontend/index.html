@@ -11,6 +11,7 @@
 </head>
 
 <body class="body-container">
+    <!--HERO-->
     <header class="d-flex align-items-center" style="padding-left: 0; justify-content: space-between ;">
         <!--Left Bottom-->
         <section class="d-flex align-items-center">
@@ -28,7 +29,7 @@
             <!--cart icon small screen-->
             <div class="cart-container d-md-none ms-3">
                 <button class="btn p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas"
-                    aria-controls="cartOffcanvas" >
+                    aria-controls="cartOffcanvas">
                     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
                         class="bi bi-bag-heart" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
@@ -100,35 +101,6 @@
             <span class="text-body-secondary">Toggleable via the navbar brand.</span>
         </div>
     </div>
-    <div class="front-banner" style="margin-top: 20px;">
-        <img src="images/bannerfront.webp" alt="">
-    </div>
-    <div class="middle-nav">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Aromatizantes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Ambientes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Combinações</a>
-                        </li>
-                    </ul>
-                    <span class="navbar-text">
-                    </span>
-                </div>
-            </div>
-        </nav>
-    </div>
     <div class="main-center-text" style="text-align: center; margin-top: 30px;">
         <p>
         <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Veja produtos selecionados
@@ -145,6 +117,12 @@
                     <h4>R$ 69,90 </h4>
                     </p>
                     <p>ou 3x de R$ 24,11 com juros Cartão de Crédito - PagBank</p>
+                </div>
+                <div class="btn-container d-flex">
+                    <div class="content col">
+                        <button class="btn btn-primary" id="card-btn">Comprar</button>
+                    </div>
+
                 </div>
             </div>
             <div class="product-card">
@@ -277,6 +255,7 @@
             </div>
     </div>
     </footer>
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
